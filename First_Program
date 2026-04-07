@@ -16,4 +16,12 @@ int main()
 
     cout<<endl;
 
+
+  // To get a random sequence number
+    srand(time(0)); // seed for random numbers
+
+    // Loop with while
+    cout<< "Print white" << endl;
+
+    x=1+rand()%10; // generate random number (1–10)
 }
