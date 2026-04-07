@@ -3,5 +3,11 @@ using namespace std;
 
 int main()
 {
- 
+  float nilB, nilM, average;
+   string status;
+
+   cout<< "Enter Math value=";
+   cin>>nilM;
+   cout<< "Enter English Value=";
+   cin>>nilB;
 }
