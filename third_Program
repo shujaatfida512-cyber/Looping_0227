@@ -13,4 +13,13 @@ float nilB, nilM, average;
    cout<< "Enter English Value=";
    cin>>nilB;
    average=(nilB=nilM) / 2;
+
+ if ((average>60) || (nilM >=70)) 
+        status = "Passed";
+    else
+         status = "Failed";
+
+    cout<< "Passing Status=" << status << 
+    "With a average grade=" << average <<endl;
+
 }
