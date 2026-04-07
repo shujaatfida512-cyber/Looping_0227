@@ -5,6 +5,18 @@ using namespace std;
 //Global Variables
 int majorcode;
 string MajorName, QuotaStatus;
+
+
+//Function to take input from user
+void input()
+{
+    cout<< "=== campus major registration ===" << endl;
+    cout<< "1. Information Technology"<< endl;
+    cout<< "2. Information System"<<endl;
+    cout<< "--------------------"<<endl;
+    cout<< "Enter major code (1-3): ";
+    cin>> majorcode;
+}
 int main(){
 
 }
