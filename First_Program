@@ -24,4 +24,15 @@ int main()
     cout<< "Print white" << endl;
 
     x=1+rand()%10; // generate random number (1–10)
+
+
+    while (x<=5) // loop runs while number is <= 5
+    {
+        cout<< "Random Number="<<x<<endl; // print number
+        x=rand()%10; // generate new random number (0–9)
+    }
+
+    cout<<"Last random number while="<<x<<endl;
+    cout<<endl;
+
 }
