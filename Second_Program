@@ -10,4 +10,14 @@ int main()
    cin>>nilM;
    cout<< "Enter English Value=";
    cin>>nilB;
+
+ average=(nilB+nilM) / 2;
+   
+   if (!(average<60)) 
+        status = "Passed";
+    else
+         status = "Failed";
+
+    cout<< "Passing Status=" << status << 
+    "With a average grade=" <<average<<endl;
 }
