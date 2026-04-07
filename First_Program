@@ -35,4 +35,18 @@ int main()
     cout<<"Last random number while="<<x<<endl;
     cout<<endl;
 
+ // Loop with do while
+    cout<< "Print do while"<<endl;
+
+    x=1+rand()%10; // generate random number (1–10)
+
+     do
+    {
+        cout<< "random number="<<x<<endl; // print number
+        x=rand()%10; // generate new random number
+    } 
+    while (x<=5); // loop repeats while number <= 5
+
+    cout<< "The last random number do while="<<x<<endl;
+
 }
