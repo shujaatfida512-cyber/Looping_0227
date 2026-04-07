@@ -42,6 +42,14 @@ void selectmajor()
    }
 
 }
+// Function to display result
+void output()
+{
+   cout<< "\n=== Selection Result ===" << endl;
+   cout<< "Major Name:" << MajorName << endl;
+   cout<< "Qouta Status: " << QuotaStatus << endl;
+   cout<< "----------------" << endl;
+}
 int main(){
 
 }
